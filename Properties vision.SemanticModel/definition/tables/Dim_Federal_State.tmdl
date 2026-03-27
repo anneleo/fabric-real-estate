@@ -1,0 +1,38 @@
+table Dim_Federal_State
+	lineageTag: f6521ed4-9f04-4bfc-87b1-9774030881e2
+	sourceLineageTag: [dbo].[Dim_Federal_State]
+
+	column 'Federal State Key'
+		dataType: string
+		lineageTag: 127d409d-0ff7-4866-b2a9-e0db6b55f761
+		sourceLineageTag: Federal State Key
+		summarizeBy: none
+		sourceColumn: Federal State Key
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Federal State Name'
+		dataType: string
+		lineageTag: 67b8a4be-6aee-4185-b66e-23c9bcfd68e9
+		sourceLineageTag: Federal State Name
+		summarizeBy: none
+		sourceColumn: Federal State Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Federal State Capital'
+		dataType: string
+		lineageTag: 96390442-5e15-4df8-9f09-6236eb7c14fe
+		sourceLineageTag: Federal State Capital
+		summarizeBy: none
+		sourceColumn: Federal State Capital
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Dim_Federal_State = entity
+		mode: directLake
+		source
+			entityName: Dim_Federal_State
+			schemaName: dbo
+			expressionSource: 'DirectLake – RealEstateSQLdB'
+

@@ -1,0 +1,4 @@
+relationship 977fddf7-713a-eb35-a71a-85ccdb9ba149
+	fromColumn: Dim_Federal_State.'Federal State Key'
+	toColumn: Properties.'Federal State'
+

@@ -1,0 +1,39 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {
+    "allowModernEvaluationEngine": true
+  },
+  "name": "LoadPropertiesData",
+  "queryGroups": [],
+  "documentLocale": "en-GB",
+  "queriesMetadata": {
+    "InsertData": {
+      "queryId": "dc00f13c-06fe-4010-87d0-3a446e795043",
+      "queryName": "InsertData",
+      "loadEnabled": false
+    },
+    "InsertData_DataDestination": {
+      "queryId": "e5e6c36a-9479-4d8a-bbe4-36716a68e515",
+      "queryName": "InsertData_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    }
+  },
+  "connections": [
+    {
+      "path": "https://mngenvmcap635694-my.sharepoint.com/personal/carlosbusinessuser_mngenvmcap635694_onmicrosoft_com/",
+      "kind": "Web",
+      "connectionId": "{\"ClusterId\":\"6cecf25d-324f-4100-a4fa-1e2d9aa8fe0b\",\"DatasourceId\":\"472af029-d1ef-486e-bf4b-9e8fa9174a91\"}"
+    },
+    {
+      "path": "FabricSql",
+      "kind": "FabricSql",
+      "connectionId": "{\"ClusterId\":\"6cecf25d-324f-4100-a4fa-1e2d9aa8fe0b\",\"DatasourceId\":\"20672fa0-1d19-4a2a-b0f4-f508c8524542\"}"
+    },
+    {
+      "path": "Lakehouse",
+      "kind": "Lakehouse",
+      "connectionId": "{\"ClusterId\":\"6cecf25d-324f-4100-a4fa-1e2d9aa8fe0b\",\"DatasourceId\":\"7cfa8e60-05f0-4f33-a83f-ebbd920d198d\"}"
+    }
+  ]
+}

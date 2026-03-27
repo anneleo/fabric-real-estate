@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Shared Documents",
+    "path": "/Files",
+    "target": {
+      "type": "OneDriveSharePoint",
+      "oneDriveSharePoint": {
+        "connectionId": "853c6dbc-00fe-41af-b715-a277e18d1e92",
+        "location": "https://mngenvmcap635694.sharepoint.com",
+        "subpath": "/sites/REReporting/Shared Documents"
+      }
+    }
+  }
+]

@@ -1,0 +1,755 @@
+table Properties
+	lineageTag: 43be4551-df68-4978-863c-a7f3567a1955
+	sourceLineageTag: [dbo].[Properties]
+
+	column 'Portfolio Name'
+		dataType: string
+		lineageTag: 0c838270-5809-481e-b465-8cc29dbe6e4e
+		sourceLineageTag: Portfolio Name
+		summarizeBy: none
+		sourceColumn: Portfolio Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Property ID - External'
+		dataType: string
+		displayFolder: 1 - Property
+		lineageTag: c5c42a7a-edb8-4881-ab7c-19f3c65171a6
+		sourceLineageTag: Property ID - External
+		summarizeBy: none
+		sourceColumn: Property ID - External
+
+		changedProperty = DisplayFolder
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Property ID - Internal'
+		dataType: string
+		displayFolder: 1 - Property
+		lineageTag: 375d3b5f-f884-432c-bf9d-0f3e396bf77a
+		sourceLineageTag: Property ID - Internal
+		summarizeBy: none
+		sourceColumn: Property ID - Internal
+
+		changedProperty = DisplayFolder
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Property Name'
+		dataType: string
+		displayFolder: 1 - Property
+		lineageTag: 27e1e573-810e-4876-8fc1-5f212024c686
+		sourceLineageTag: Property Name
+		summarizeBy: none
+		sourceColumn: Property Name
+
+		changedProperty = DisplayFolder
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Asset Class '
+		dataType: string
+		isHidden
+		lineageTag: 2a5d9a06-8962-4137-8001-04997aca1062
+		sourceLineageTag: "Asset Class "
+		summarizeBy: none
+		sourceColumn: "Asset Class "
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Subasset Class '
+		dataType: string
+		isHidden
+		lineageTag: d2290938-fa4e-41b8-994e-cb22dc11a206
+		sourceLineageTag: "Subasset Class "
+		summarizeBy: none
+		sourceColumn: "Subasset Class "
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Submarket
+		dataType: string
+		lineageTag: 46511812-f6a5-4e0a-988c-ca0d2d32186a
+		sourceLineageTag: Submarket
+		summarizeBy: none
+		sourceColumn: Submarket
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Year of Construction'
+		dataType: int64
+		formatString: 0
+		lineageTag: e65207db-7ae3-4b97-9465-719150c529ed
+		sourceLineageTag: Year of Construction
+		summarizeBy: none
+		sourceColumn: Year of Construction
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Year of Modernisation '
+		dataType: int64
+		formatString: 0
+		lineageTag: d425c149-ba82-4ea6-9769-43d14bcb1458
+		sourceLineageTag: "Year of Modernisation "
+		summarizeBy: none
+		sourceColumn: "Year of Modernisation "
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Main Tenant'
+		dataType: string
+		lineageTag: 84d5b542-5144-46f5-affb-2a80d34575a4
+		sourceLineageTag: Main Tenant
+		summarizeBy: none
+		sourceColumn: Main Tenant
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Sector (of Main Tenant)'
+		dataType: string
+		lineageTag: bc5f10cc-ad32-40b6-8bad-a6aaee4a1092
+		sourceLineageTag: Sector (of Main Tenant)
+		summarizeBy: none
+		sourceColumn: Sector (of Main Tenant)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Total Rental Space (sqm)'
+		dataType: int64
+		formatString: 0
+		lineageTag: 09875c57-c0bf-4997-b408-1dccf9fae571
+		sourceLineageTag: Total Rental Space (sqm)
+		summarizeBy: none
+		sourceColumn: Total Rental Space (sqm)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Vancancy Rate '
+		dataType: int64
+		formatString: 0
+		lineageTag: dae3b655-ffa8-4b29-b8d9-a5615fa76475
+		sourceLineageTag: "Vancancy Rate "
+		summarizeBy: none
+		sourceColumn: "Vancancy Rate "
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Date of Condition'
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 8ffba9ad-9e1d-4d87-92af-5996e4989898
+		sourceLineageTag: Date of Condition
+		summarizeBy: none
+		sourceColumn: Date of Condition
+
+		annotation SummarizationSetBy = Automatic
+
+	column WALT
+		dataType: int64
+		formatString: 0
+		lineageTag: 3633dd5d-1bad-46ce-b393-572cb5f338c2
+		sourceLineageTag: WALT
+		summarizeBy: none
+		sourceColumn: WALT
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Picture '
+		dataType: string
+		lineageTag: f4934b85-1100-4145-88fa-24cac2c8265b
+		sourceLineageTag: "Picture "
+		summarizeBy: none
+		sourceColumn: "Picture "
+
+		annotation SummarizationSetBy = Automatic
+
+	column Utilisation
+		dataType: string
+		lineageTag: 68850c20-3786-42ad-b0e8-8251b28c7dad
+		sourceLineageTag: Utilisation
+		summarizeBy: none
+		sourceColumn: Utilisation
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Parking Lots'
+		dataType: int64
+		formatString: 0
+		lineageTag: e6b8a7be-2236-4c74-9e68-5f5d973bc7fb
+		sourceLineageTag: Parking Lots
+		summarizeBy: none
+		sourceColumn: Parking Lots
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Number of Units'
+		dataType: int64
+		formatString: 0
+		lineageTag: e862b3ce-cc69-4473-9247-a239351eaf0c
+		sourceLineageTag: Number of Units
+		summarizeBy: none
+		sourceColumn: Number of Units
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Office Share'
+		dataType: double
+		displayFolder: Shares
+		lineageTag: 25907f8d-1a74-4d71-89c3-e5c748d0c0d0
+		sourceLineageTag: Office Share
+		summarizeBy: none
+		sourceColumn: Office Share
+
+		changedProperty = DisplayFolder
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Retail Share'
+		dataType: double
+		lineageTag: 57356229-1541-44f5-9e9d-842c6fd59a92
+		sourceLineageTag: Retail Share
+		summarizeBy: none
+		sourceColumn: Retail Share
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Residential Share'
+		dataType: double
+		lineageTag: 17f2a617-59dd-4ad6-8161-0335991db97c
+		sourceLineageTag: Residential Share
+		summarizeBy: none
+		sourceColumn: Residential Share
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Hotel Share'
+		dataType: double
+		lineageTag: b87bffb3-ee19-44d2-9ca4-2f79934e695e
+		sourceLineageTag: Hotel Share
+		summarizeBy: none
+		sourceColumn: Hotel Share
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Leisure Share'
+		dataType: double
+		lineageTag: dce6d3c0-a66b-4486-8090-5559dae2c196
+		sourceLineageTag: Leisure Share
+		summarizeBy: none
+		sourceColumn: Leisure Share
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Industrial Share '
+		dataType: double
+		lineageTag: ca81d0a6-f06d-4ee8-8a5a-1470c030e86e
+		sourceLineageTag: "Industrial Share "
+		summarizeBy: none
+		sourceColumn: "Industrial Share "
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Logistics Share'
+		dataType: double
+		lineageTag: 1a94a7ff-bcce-4439-a4ae-554a6bbed8e2
+		sourceLineageTag: Logistics Share
+		summarizeBy: none
+		sourceColumn: Logistics Share
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Gastronomy Share'
+		dataType: double
+		lineageTag: 6c012e50-0b5e-4efe-970a-319d9d143351
+		sourceLineageTag: Gastronomy Share
+		summarizeBy: none
+		sourceColumn: Gastronomy Share
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Parking Share'
+		dataType: double
+		displayFolder: Shares
+		lineageTag: 610928c1-a637-4847-95f6-32096de68ee1
+		sourceLineageTag: Parking Share
+		summarizeBy: none
+		sourceColumn: Parking Share
+
+		changedProperty = DisplayFolder
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Health Care Share'
+		dataType: double
+		lineageTag: 7f180460-4b36-47f6-9307-95793cf10aac
+		sourceLineageTag: Health Care Share
+		summarizeBy: none
+		sourceColumn: Health Care Share
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Commercial Park Share'
+		dataType: double
+		lineageTag: 4a5ae783-dd2c-4c28-827b-b88579c4fc1c
+		sourceLineageTag: Commercial Park Share
+		summarizeBy: none
+		sourceColumn: Commercial Park Share
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Mixed-Use Share'
+		dataType: double
+		lineageTag: 21f20c59-2cfc-4e9f-bd7e-6929a8d13e97
+		sourceLineageTag: Mixed-Use Share
+		summarizeBy: none
+		sourceColumn: Mixed-Use Share
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Serviced Apartments Share'
+		dataType: double
+		lineageTag: 25bd461a-3079-4a13-acac-a13b83607965
+		sourceLineageTag: Serviced Apartments Share
+		summarizeBy: none
+		sourceColumn: Serviced Apartments Share
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Others Share'
+		dataType: double
+		displayFolder: Shares
+		lineageTag: 49d79828-c775-403d-9876-e4fec1fb2d5f
+		sourceLineageTag: Others Share
+		summarizeBy: none
+		sourceColumn: Others Share
+
+		changedProperty = DisplayFolder
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Development Site Share'
+		dataType: double
+		lineageTag: 3a21d0ad-76a5-413e-b5eb-4ae1bc39b01d
+		sourceLineageTag: Development Site Share
+		summarizeBy: none
+		sourceColumn: Development Site Share
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'EPC Rating'
+		dataType: string
+		lineageTag: b280276c-c9de-44d8-99f2-3cb3b28a40b6
+		sourceLineageTag: EPC Rating
+		summarizeBy: none
+		sourceColumn: EPC Rating
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Energy Consumption (kwH/sqm/ p.a )'
+		dataType: int64
+		formatString: 0
+		lineageTag: d2819d3a-dcf8-4470-afa0-11ab4fce929c
+		sourceLineageTag: Energy Consumption (kwH/sqm/ p.a )
+		summarizeBy: none
+		sourceColumn: Energy Consumption (kwH/sqm/ p.a )
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Building Type'
+		dataType: string
+		lineageTag: 2439bea7-d613-4cd9-863f-d334887c0f02
+		sourceLineageTag: Building Type
+		summarizeBy: none
+		sourceColumn: Building Type
+
+		annotation SummarizationSetBy = Automatic
+
+	column Divisibility
+		dataType: int64
+		formatString: 0
+		lineageTag: a4a1e340-8b0b-4317-8d5b-3667b23b7560
+		sourceLineageTag: Divisibility
+		summarizeBy: none
+		sourceColumn: Divisibility
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Federal State'
+		dataType: string
+		lineageTag: 413c2959-96b2-4f24-b2cd-aaf274c0a17f
+		sourceLineageTag: Federal State
+		summarizeBy: none
+		sourceColumn: Federal State
+
+		annotation SummarizationSetBy = Automatic
+
+	column Region
+		dataType: string
+		lineageTag: da4365c6-6f11-465f-896d-ce9f3b3c5cd0
+		sourceLineageTag: Region
+		summarizeBy: none
+		sourceColumn: Region
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Postal Code'
+		dataType: int64
+		formatString: 0
+		lineageTag: 128dfd3b-30e6-4012-8bf7-abdd5ca8325f
+		sourceLineageTag: Postal Code
+		summarizeBy: none
+		sourceColumn: Postal Code
+
+		annotation SummarizationSetBy = Automatic
+
+	column City
+		dataType: string
+		lineageTag: e621f057-1ad6-4e66-8168-1af72c77ce0a
+		sourceLineageTag: City
+		summarizeBy: none
+		sourceColumn: City
+
+		annotation SummarizationSetBy = Automatic
+
+	column Street
+		dataType: string
+		lineageTag: 5e9a6fc1-21c6-4e24-8086-266df504aefb
+		sourceLineageTag: Street
+		summarizeBy: none
+		sourceColumn: Street
+
+		annotation SummarizationSetBy = Automatic
+
+	column Number
+		dataType: string
+		lineageTag: c900e445-e7ad-4e91-9c87-ade6d315e4d8
+		sourceLineageTag: Number
+		summarizeBy: none
+		sourceColumn: Number
+
+		annotation SummarizationSetBy = Automatic
+
+	column Latitude
+		dataType: double
+		lineageTag: e2c73bc9-9add-4135-bbf1-02788c6d6669
+		sourceLineageTag: Latitude
+		summarizeBy: none
+		sourceColumn: Latitude
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Longitude
+		dataType: double
+		lineageTag: 96dfd462-0403-4d15-9097-fbfe910b5dcc
+		sourceLineageTag: Longitude
+		summarizeBy: none
+		sourceColumn: Longitude
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Compare Address ( For HQ )'
+		dataType: string
+		lineageTag: c3e8d5e2-4f04-4376-bbc3-f37bb86cbdef
+		sourceLineageTag: Compare Address ( For HQ )
+		summarizeBy: none
+		sourceColumn: Compare Address ( For HQ )
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Distance HQ'
+		dataType: double
+		lineageTag: a8acfd42-7921-48c4-a2be-8cfb394fe859
+		sourceLineageTag: Distance HQ
+		summarizeBy: none
+		sourceColumn: Distance HQ
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Distance Main Station '
+		dataType: double
+		lineageTag: 5bd2d46a-ba82-42f3-992e-fd1865e8f7a1
+		sourceLineageTag: "Distance Main Station "
+		summarizeBy: none
+		sourceColumn: "Distance Main Station "
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Distance Next Public Transit'
+		dataType: double
+		lineageTag: 8863232d-868d-4ad5-ab1b-952b701ef229
+		sourceLineageTag: Distance Next Public Transit
+		summarizeBy: none
+		sourceColumn: Distance Next Public Transit
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Distance City Center'
+		dataType: double
+		lineageTag: be65116f-bf57-4d83-916b-06f8febbbfac
+		sourceLineageTag: Distance City Center
+		summarizeBy: none
+		sourceColumn: Distance City Center
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Distance Airport'
+		dataType: double
+		lineageTag: dd748aeb-d635-451c-bc31-eeb17b4a6523
+		sourceLineageTag: Distance Airport
+		summarizeBy: none
+		sourceColumn: Distance Airport
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Distance High Way'
+		dataType: double
+		lineageTag: b943f984-e2a9-4c7a-a5c5-6ced3291bea7
+		sourceLineageTag: Distance High Way
+		summarizeBy: none
+		sourceColumn: Distance High Way
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Any Other Important Distance'
+		dataType: int64
+		formatString: 0
+		lineageTag: 13db5724-332a-430a-b111-ef78a8f4ef63
+		sourceLineageTag: Any Other Important Distance
+		summarizeBy: none
+		sourceColumn: Any Other Important Distance
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Next Public Transit'
+		dataType: string
+		lineageTag: 359ea692-4d2b-4829-aab7-0ad31996e169
+		sourceLineageTag: Next Public Transit
+		summarizeBy: none
+		sourceColumn: Next Public Transit
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Main Tenant Income '
+		dataType: int64
+		formatString: 0
+		lineageTag: 402cc151-6bd5-467d-ba01-e0a1a0c1c3b6
+		sourceLineageTag: "Main Tenant Income "
+		summarizeBy: none
+		sourceColumn: "Main Tenant Income "
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Total Current Rent ( EUR p.a )'
+		dataType: int64
+		formatString: 0
+		lineageTag: d9d6a52d-a4b0-4e77-a39f-e331f7ed6dda
+		sourceLineageTag: Total Current Rent ( EUR p.a )
+		summarizeBy: none
+		sourceColumn: Total Current Rent ( EUR p.a )
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Average Current Rent (EUR / sqm / p.m )'
+		dataType: double
+		lineageTag: 0d0d9be9-c89f-44a8-9673-f55f71553c2f
+		sourceLineageTag: Average Current Rent (EUR / sqm / p.m )
+		summarizeBy: none
+		sourceColumn: Average Current Rent (EUR / sqm / p.m )
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Stabilized Total Rent (EUR / p.a )'
+		dataType: int64
+		formatString: 0
+		lineageTag: 0e9d2b3a-8def-41dd-92a5-b0eb885e152a
+		sourceLineageTag: Stabilized Total Rent (EUR / p.a )
+		summarizeBy: none
+		sourceColumn: Stabilized Total Rent (EUR / p.a )
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Total Current Market Rent  (EUR / p.a )'
+		dataType: int64
+		formatString: 0
+		lineageTag: fc538503-2eb4-45fb-a51b-002bf8e4d8bb
+		sourceLineageTag: Total Current Market Rent  (EUR / p.a )
+		summarizeBy: none
+		sourceColumn: Total Current Market Rent  (EUR / p.a )
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Average Current Market Rent (EUR / sqm / per month )'
+		dataType: int64
+		formatString: 0
+		lineageTag: 43190144-9fa1-4c5f-a315-5910b829890e
+		sourceLineageTag: Average Current Market Rent (EUR / sqm / per month )
+		summarizeBy: none
+		sourceColumn: Average Current Market Rent (EUR / sqm / per month )
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Total Share of Income of Main Asset Class ( EUR / p.a )'
+		dataType: int64
+		formatString: 0
+		lineageTag: 3bd5d019-b294-4144-a32c-a90ffdf8ede8
+		sourceLineageTag: Total Share of Income of Main Asset Class ( EUR / p.a )
+		summarizeBy: none
+		sourceColumn: Total Share of Income of Main Asset Class ( EUR / p.a )
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Population Development Last 5 Years'
+		dataType: double
+		lineageTag: 3c0fe24d-5b02-4234-a6c9-c8010e196988
+		sourceLineageTag: Population Development Last 5 Years
+		summarizeBy: none
+		sourceColumn: Population Development Last 5 Years
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Population Forecast 2035'
+		dataType: double
+		lineageTag: 26110707-e049-4604-a8a0-40fd75ff7a11
+		sourceLineageTag: Population Forecast 2035
+		summarizeBy: none
+		sourceColumn: Population Forecast 2035
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Population Information Range'
+		dataType: string
+		lineageTag: 4c7445b6-8f9c-40f1-aef8-48217478a68f
+		sourceLineageTag: Population Information Range
+		summarizeBy: none
+		sourceColumn: Population Information Range
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Purchasing Power'
+		dataType: double
+		lineageTag: 4cff344b-3c3f-4a70-9a9e-d7f16a7b7c62
+		sourceLineageTag: Purchasing Power
+		summarizeBy: none
+		sourceColumn: Purchasing Power
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Centrality
+		dataType: int64
+		formatString: 0
+		lineageTag: 02539fdf-5ca5-4c85-8ffc-2618a169f354
+		sourceLineageTag: Centrality
+		summarizeBy: none
+		sourceColumn: Centrality
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Population Amount'
+		dataType: int64
+		formatString: 0
+		lineageTag: 800b9ea6-ded4-4e75-9eec-b148c34566d6
+		sourceLineageTag: Population Amount
+		summarizeBy: none
+		sourceColumn: Population Amount
+
+		annotation SummarizationSetBy = Automatic
+
+	column Unemployment
+		dataType: double
+		lineageTag: 62dc68ff-c624-4959-a710-41b575220b3d
+		sourceLineageTag: Unemployment
+		summarizeBy: none
+		sourceColumn: Unemployment
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column MSSQL_System_Uniquifier_1989582126
+		dataType: int64
+		formatString: 0
+		lineageTag: 7e83c74f-4433-4bbc-b1ca-afd0ecfc910a
+		sourceLineageTag: MSSQL_System_Uniquifier_1989582126
+		summarizeBy: none
+		sourceColumn: MSSQL_System_Uniquifier_1989582126
+
+		annotation SummarizationSetBy = Automatic
+
+	hierarchy 'Asset Class  Hierarchy'
+		lineageTag: 01ebbca0-63fa-4ffb-be27-27535a050e40
+
+		level 'Asset Class '
+			lineageTag: f88b13a1-b632-4ce9-9a35-d2e9e748794b
+			column: 'Asset Class '
+
+		level 'Subasset Class '
+			lineageTag: aa862d4b-0b5a-4821-98cf-7bf2420ce13a
+			column: 'Subasset Class '
+
+		changedProperty = Name
+
+	partition Properties = entity
+		mode: directLake
+		source
+			entityName: Properties
+			schemaName: dbo
+			expressionSource: 'DirectLake – RealEstateSQLdB'
+

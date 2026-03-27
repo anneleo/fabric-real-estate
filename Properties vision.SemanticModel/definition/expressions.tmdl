@@ -1,0 +1,9 @@
+expression 'DirectLake – RealEstateSQLdB' =
+		let
+		    Source = AzureStorage.DataLake("https://onelake.dfs.fabric.microsoft.com/39666ea9-91d3-404a-be22-7b02087fd7bb/cd02dd2f-cfa9-494a-85f9-61c23d169f67", [HierarchicalNavigation=true])
+		in
+		    Source
+	lineageTag: c59d214d-d84a-4d6f-ac87-0ee5eea952b4
+
+	annotation PBI_IncludeFutureArtifacts = False
+

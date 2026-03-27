@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SQLDatabase",
+    "displayName": "RealEstateSQLdB"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "3d169f67-61c2-85f9-494a-cfa9cd02dd2f"
+  }
+}
